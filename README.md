@@ -17,7 +17,9 @@ How to start:
 * task/data/input - здесь ratings.dat  
 * task/data - здесь all_films_big.txt (содержит все названия фильмов), movies.dat  
 * task - здесь run.py (который создает file_big - словарь, словарь нужно переместить далее в папку data командой: mv file_big data - из task), скрипты run_big.sh, run_big_1.sh, run_big_2.sh  
-Команды: *все из task*
+
+
+КОМАНДЫ: *все из task*
 * sh run_big.sh # первая м-р задача
 * Выход в data/output_big
 * sh run_big_1.sh # вторая м-р задача	
