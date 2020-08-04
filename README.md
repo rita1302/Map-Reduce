@@ -13,15 +13,15 @@ How to start:
 6. reducer_2.py получает данные, кроме того использует матрицу sim, выдает рекомендации (финальные).
 
 ЗАПУСК:
-        * task/src - здесь хранится код функции mapper*.py, reducer*.py  
-        * task/data/input - здесь ratings.dat  
-        * task/data - здесь all_films_big.txt (содержит все названия фильмов), movies.dat  
-        * task - здесь run.py (который создает file_big - словарь, словарь нужно переместить далее в папку data командой: mv file_big data - из task), скрипты run_big.sh, run_big_1.sh, run_big_2.sh  
+* task/src - здесь хранится код функции mapper*.py, reducer*.py  
+* task/data/input - здесь ratings.dat  
+* task/data - здесь all_films_big.txt (содержит все названия фильмов), movies.dat  
+* task - здесь run.py (который создает file_big - словарь, словарь нужно переместить далее в папку data командой: mv file_big data - из task), скрипты run_big.sh, run_big_1.sh, run_big_2.sh  
 Команды: *все из task*
-	* sh run_big.sh # первая м-р задача
-	* Выход в data/output_big
-	* sh run_big_1.sh # вторая м-р задача
-	* Выход в data/output_big_1
-	* cat data/output_big_1/* | python3 run.py # создание файла file_big
-	* sh run_big_2.sh # третья м-р задача
-	* Выход в data/output_big_2
+* sh run_big.sh # первая м-р задача
+* Выход в data/output_big
+* sh run_big_1.sh # вторая м-р задача	
+* Выход в data/output_big_1
+* cat data/output_big_1/* | python3 run.py # создание файла file_big
+* sh run_big_2.sh # третья м-р задача
+* Выход в data/output_big_2
